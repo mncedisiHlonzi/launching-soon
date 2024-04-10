@@ -13,7 +13,7 @@
     background-size: cover;
     padding: 0 8%;
     position: relative;
-    background-color: indigo;
+    background-color: rgb(20, 3, 32);
 }
 
 .logo{
@@ -96,7 +96,7 @@
         margin-bottom: 15px;
     }
     .content h1 {
-      font-size: 70px;
+      font-size: 50px;
     }
   
     .content button {
