@@ -36,11 +36,16 @@
                     <span>Seconds</span>
                 </div>
             </div>
-            <button type="button" onclick="window.location.href='your-url-here'">Return</button>
+            <button type="button" onclick="closePage()">Return</button>
         </div>
         <img src="img/rocket.png" alt="" class="rocket">
     </div>
 
+    <script>
+        function closePage() {
+            window.close();
+        }
+    </script>
     <script>
         var countDownDate = new Date("Jun 16, 2024 00:00:00").getTime();
         var x = setInterval(function(){
